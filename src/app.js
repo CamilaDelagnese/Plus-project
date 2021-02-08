@@ -25,9 +25,9 @@ function formatDate (timestamp){
     windElement.innerHTML = Math.round(response.data.wind.speed);
 }
 
-let apiKey = "5f472b7acba333cd8a035ea85a0d4d4";
+let apiKey = "638814fa6995b0d81c07ae759b949580";
 let city = "Paris"
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q={city}&appid=${apiKey}&units=metric`;
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 
 axios.get(apiUrl).then(displayTemperature);
