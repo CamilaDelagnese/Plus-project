@@ -9,7 +9,9 @@
 </head>
 <body>
     <div class="container">
+        <div class="weather-app-wrapper">
         <div class="weather-app">
+            <div class="overview">
     <h1>
         New York
     </h1>
@@ -21,10 +23,17 @@
             Clear
         </li>
     </ul>
+    </div>
     <div class="row">
         <div class="col-6">
-            <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios11-weather-partly-sunny-icon.png" />
-            12°C | °F
+            <div class="clearfix weather-temperature">
+            <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios11-weather-partly-sunny-icon.png" class="float-left"/>
+            
+            <strong>12</strong>
+            <span class="units">
+                °C | °F
+            </span>
+            </div>
         </div>
         <div class="col-6">
             <ul>
@@ -40,11 +49,14 @@
             </ul>
 
         </div>
+    </div>
+        </div>
         <small>
            <a href="https://github.com/CamilaDelagnese/Plus-project" target="_blank"> Open-sourse code</a>, by Camila Delagnese
         </small>
-    </div>  
-    </div>
+        </div>  
+    
+    
     
 <script src="src/app.js"></script>    
 </body>
