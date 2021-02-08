@@ -13,15 +13,15 @@
         <div class="weather-app-wrapper">
         <div class="weather-app">
             <div class="overview">
-    <h1>
+    <h1 id="city">
         New York
     </h1>
     <ul>
         <li>
-            Friday 05:00
+            Last update: <span id="date"></span>
         </li>
-        <li>
-            Clear
+        <li id="description">
+            
         </li>
     </ul>
     </div>
@@ -30,7 +30,7 @@
             <div class="clearfix weather-temperature">
             <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios11-weather-partly-sunny-icon.png" class="float-left"/>
             
-            <strong>12</strong>
+            <strong id="temperature"></strong>
             <span class="units">
                 °C | °F
             </span>
@@ -39,13 +39,10 @@
         <div class="col-6">
             <ul>
                 <li>
-                    Precipitation: 0%
+                    Humidity: <span id="humidity"></span>%
                 </li>
                 <li>
-                    Humidity: 73%
-                </li>
-                <li>
-                    Windy: 2km/h
+                    Windy: <span id="wind"></span>km/h
                 </li>
             </ul>
 
