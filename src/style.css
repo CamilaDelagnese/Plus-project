@@ -4,9 +4,10 @@ body {
 h1{
     color: #878787;
     font-size: 24px;
-    font-weight: 100px;
+    font-weight: 80px;
     line-height: 28px;
     margin-bottom: 0;
+    margin-left: 28px;
 }
 ul{
     margin: 0;
@@ -17,9 +18,10 @@ li{
     margin: 0;
     padding: 0;
     color: darkslategrey;
-    font-size: 16px;
-    font-weight: 100;
+    font-size: 18px;
+    font-weight: 80;
     line-height: 19px;
+    
     }
 
 li:first-letter {
@@ -41,7 +43,7 @@ border-radius: 10px;
 .weather-temperature img {
     margin-right: 10px;
     height: 80px;
-    width: 100px;
+    width: 80px;
 }
 .weather-temperature strong {
     color: rgb(33, 33, 33);
