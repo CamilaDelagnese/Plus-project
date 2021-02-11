@@ -37,7 +37,7 @@ function formatDate (timestamp){
     dateElement.innerHTML = formatDate(response.date.dt * 1000);
     iconElement.setAttribute(
         "src",
-        `http://openweather.org/img/wn/04d02x.png`);
+        `http://openweathermap.org/img/wn/${response.data.weather[0].icon}02x.png`);
         iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
