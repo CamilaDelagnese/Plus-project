@@ -1,9 +1,12 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://cdn.wallpapersafari.com/29/42/IbsCgi.jpg");
+    
    
 }
 h1{
-    color:#276678;
+    font-family: 'Crimson Text', serif;
+    color:black;
     font-size: 24px;
     font-weight: 80px;
     line-height: 28px;
@@ -15,28 +18,32 @@ ul{
     padding: 0;
 }
 li{
+    font-family: 'Crimson Text', serif;
     list-style: none;
     margin: 0;
     padding: 0;
-    color:#03506f;
-    font-size: 18px;
+    color:rgb(85, 83, 83);
+    font-size: 20px;
     font-weight: 80;
     line-height: 19px;
     
     }
+    
 
 li:first-letter {
  text-transform: capitalize;   
 }
+
 .weather-app-wrapper {
-max-width: 600px;
-margin:30px auto;   
+max-width: 800px;
+margin:50px auto; 
+
 }
 
 .weather-app {
-background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
-padding: 20px;
-border: 1px solid black;
+background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+padding: 50px;
+border: 1px solid grey;
 border-radius: 10px;
 }
 .overview {
@@ -44,11 +51,11 @@ border-radius: 10px;
 }
 .weather-temperature img {
     margin-right: 25px;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
 }
 .weather-temperature strong {
-    color:#276678;
+    color:black;
     font-size: 64px;
     line-height: 1;
     font-weight: 400;
@@ -70,7 +77,7 @@ border-radius: 10px;
   }
   
   .weather-forecast h3 {
-    color: rgb(186, 186, 186);
+    color: black;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -82,13 +89,13 @@ border-radius: 10px;
   .weather-forecast img {
     display: block;
     margin: 0 auto;
-    height: 48px;
-    width: 48px;
+    height: 52px;
+    width: 52px;
   }
   
   .weather-forecast-temperature {
     text-align: center;
-    color: rgb(135, 135, 135);
+    color: black;
     font-size: 13px;
     font-weight: 400;
     height: auto;
